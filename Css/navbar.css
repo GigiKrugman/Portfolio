@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.5em 3em;
+}
+
+.navbar--item {
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
