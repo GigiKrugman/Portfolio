@@ -1,0 +1,8 @@
+.bg-light {
+  padding: 10px 25px;
+  background-image: linear-gradient(
+    to right,
+    rgb(213, 214, 215),
+    rgb(245, 247, 249)
+  );
+}
