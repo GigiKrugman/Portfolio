@@ -17,6 +17,7 @@
   height: 200px;
   width: 100%;
   object-fit: cover;
+  align-self: flex-start;
 }
 
 .card-trip h2 {
@@ -48,7 +49,7 @@
 
 .link--github,
 .link--website {
-  padding: 5px 9px;
+  padding: 5px 15px;
 
   margin: 2px 4px;
   border-radius: 8px;
