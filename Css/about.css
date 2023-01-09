@@ -4,13 +4,14 @@
 }
 
 .btn-flat {
-  color: white;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
   padding: 8px 24px;
   border-radius: 4px;
   font-weight: bold;
-  background: linear-gradient(#474a48, #8d8f8d);
+
   transition: background 0.3s ease;
-  border: 1px solid #0f60c4;
 }
 
 .card-product {
@@ -52,5 +53,6 @@
 
 .btn-flat:hover {
   cursor: pointer;
-  background-image: linear-gradient(#22ec55, #2cd40e);
+  background-image: linear-gradient(#1ecf4a, #2eac18);
+  color: white;
 }

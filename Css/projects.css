@@ -6,6 +6,8 @@
 }
 
 .card-trip {
+  height: fit-content;
+  border-radius: 10px;
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -18,35 +20,41 @@
 }
 
 .card-trip h2 {
-  font-size: 16px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
 }
 
 .card-trip p {
-  font-size: 12px;
+  font-size: 18px;
   opacity: 0.7;
   margin: 0;
 }
 
-.card-trip .card-trip-infos {
+.card-trip-infos {
   padding: 16px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
 }
 
 .project--links {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .link--github,
 .link--website {
-  padding: 3px 6px;
-  border: 2px solid black;
+  padding: 5px 9px;
+
   margin: 2px 4px;
   border-radius: 8px;
   font-size: 15px;
+  background-color: white;
+  color: rgb(97, 94, 94);
+  border: 2px solid #4caf50;
+  font-size: 20px;
 }
