@@ -36,3 +36,17 @@
   align-items: flex-end;
   position: relative;
 }
+
+.project--links {
+  display: flex;
+  flex-direction: row;
+}
+
+.link--github,
+.link--website {
+  padding: 3px 6px;
+  border: 2px solid black;
+  margin: 2px 4px;
+  border-radius: 8px;
+  font-size: 15px;
+}
